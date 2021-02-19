@@ -19,6 +19,10 @@ body {
     margin: 0 auto;
 }
 
+.w50 {
+    width: 50%;
+}
+
 .colored,
 .colored2 {
     color: #33475b;
@@ -41,7 +45,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .button {
@@ -144,4 +148,51 @@ h6 {
 .down-header2 ul li a {
     padding-left: 15px;
     color: #33475b;
+}
+
+/*MAIN CONTENT*/
+
+/*Section hero*/
+
+.hero {
+    position: relative;
+    height: 650px;
+    background-image: url(../img-hubspot/jumbotron.png);  
+    background-position: center;
+}
+
+.container .w50 {
+    padding-top: 100px;
+}
+
+.container .w50 h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #33475b;
+}
+
+.container .w50 p {
+    margin-bottom: 20px;
+    color: #33475b;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container .w50 p:last-child {
+    font-size: 10px ;
+}
+
+.container .w50 .button {
+    margin-bottom: 20px;
+    padding: 25px;
+}
+
+.hero-border-bottom {
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: #98e5dc;
+    border-top: 5px solid #33475b;
+    border-bottom: 5px solid #33475b;
 }
