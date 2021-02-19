@@ -25,6 +25,16 @@ body {
     text-align: center;
 }
 
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+} 
+
+.float-left {
+    float: left;
+}
+
 .w50 {
     width: 50%;
 }
@@ -206,6 +216,7 @@ h6 {
 
 /*CENTRAL CONTENT*/
 
+/*first section central content*/
 .view-port3 {
     width: 100%;
     height: 1000px;
@@ -224,7 +235,88 @@ h6 {
 }
 
 .smaller-container p {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     line-height: 20px;
     color: #33475b;
+}
+
+/*second div section header of coluns*/
+
+/*header div*/
+.view-port3 .container {
+    height: 250px;
+    padding-left: 50px;
+    padding-top: 40px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+.container .CRM-left,
+.CRM-right {
+    display: inline-block;
+}
+
+/*left side*/
+.container .CRM-left {
+    width: 20%;
+    text-align: center;
+}
+
+.container .CRM-left img {
+    height: 90px;
+    margin-bottom: 20px;
+}
+
+.container .CRM-left a{
+    padding: 20px 25px;
+    font-size: 10px;
+}
+
+/*right side*/
+
+.container .CRM-right {
+    width: 70%;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.container .CRM-right h3 {
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #33475b;
+}
+
+.container .CRM-right p {
+    margin-bottom: 20px;
+}
+
+/*MINI-CONTAINER*/
+
+.mini-container {
+    position: relative;
+    width: 100%;
+    height: 20px;
+}
+
+.over-hr {
+    position: absolute;
+    left: 0;
+    bottom: 12px;
+    padding-right: 50px;
+    font-weight: 800;
+    background: #fff;
+    color: #33475b;
+}
+
+/*UL*/
+
+.view-port3 .container ul li {
+    display: inline-block;
+    margin-right: 10px;
+    list-style: none;
+}
+
+.colored4 {
+    color: #ff7a59;
 }
