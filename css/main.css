@@ -19,6 +19,12 @@ body {
     margin: 0 auto;
 }
 
+.smaller-container {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .w50 {
     width: 50%;
 }
@@ -27,6 +33,7 @@ body {
 .colored2 {
     color: #33475b;
 }
+
 colors{
 color:#007a8c
 #33475b
@@ -195,4 +202,29 @@ h6 {
     background: #98e5dc;
     border-top: 5px solid #33475b;
     border-bottom: 5px solid #33475b;
+}
+
+/*CENTRAL CONTENT*/
+
+.view-port3 {
+    width: 100%;
+    height: 1000px;
+    background: #F5F8FA;
+}
+
+.smaller-container img {
+    height: 200px;
+    margin-top: 50px;
+}
+
+.smaller-container h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #33475b;
+}
+
+.smaller-container p {
+    margin-bottom: 20px;
+    line-height: 20px;
+    color: #33475b;
 }
