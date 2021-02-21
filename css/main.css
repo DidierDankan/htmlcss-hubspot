@@ -44,14 +44,6 @@ body {
     color: #33475b;
 }
 
-colors{
-color:#007a8c
-#33475b
-#ff7a59
-#00a4bd,#00bda5
-#425b76
-}
-
 a {
     text-decoration: none;
 }
@@ -60,8 +52,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5{
     font-weight: 800;
 }
 
@@ -458,7 +449,6 @@ p {
 
 .view-port5 {
     width: 100%;
-    height: 600px;
 }
 
 .view-port5 .container {
@@ -467,17 +457,17 @@ p {
 
 .view-port5 .startgrow {
     width: 40%;
-    height: 500px;
-    background: rgba(0, 0, 0, 0.2);
+    height: 200px;
 }
 
 .view-port5 .logo-frenzy {
     position: absolute; 
-    right: 0;
+    right: 50px;
     top: 0;
-    width: 60%;
-    height: 200px;
-    background: rgba(0, 0, 0, 0.2);
+    width: 50%;
+    height: 100px;
+    margin-top: 50px;
+    text-align: center;
 }
 
 /*Text condition*/
@@ -489,7 +479,7 @@ p {
     height: 200px;
 }
 
-.startgrow #mini h2 {
+#h2-special {
     font-size: 35px;
     color: #33475b;
 }
@@ -498,6 +488,124 @@ p {
     padding-top: 30px;
 }
 
+/*Startgrow 2*/
+.startgrow2 {
+    width: 50%;
+    padding-right: 20px;
+}
 
+.startgrow2 h2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #33475b;
+}
 
+.startgrow2 h5 {
+    margin-bottom: 50px;
+    font-weight: 500;
+    color: #33475b;
+}
+
+.startgrow2 p {
+    margin-bottom: 30px;
+}
+
+.startgrow2 .button {
+    margin-bottom: 30px;
+    padding: 25px 35px;
+}
+
+/*Logo Frenzy*/
+
+.logo-frenzy .logo-fix{
+    height: 20px;
+}
+
+.logo-frenzy .logo-fix2 {
+    height: 25px;
+}
+
+.logo-frenzy .logo-fix3 {
+    height: 14px;
+}
+
+.logo-frenzy img {
+    height: 10px;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+/*second row*/
+#row2 {
+    margin-top: 10px;
+}
+
+.logo-frenzy #row2 .logo-fix {
+    padding-right: 15px;
+    height: 24px;
+}
+
+#img-special img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 320px;
+}
+
+/*BIG FOOTER*/
+
+.view-port6 {
+    width: 100%;
+    height: 700px;
+    background: #425b76;
+}
+
+.ul-row {
+    width: 25%;
+    height: 400px;
+    padding-top: 20px;
+}
+
+.container .ul-row li {
+    line-height: 3;
+    list-style: none;
+    color: #fff;
+}
+
+.container .ul-row li a {
+    color: rgba(250, 249, 249, 0.5);
+}
+
+.container .ul-row .button {
+    background: rgba(248, 240, 240, 0.863);
+    border: rgba(248, 240, 240, 0.863);
+    color: #425b76;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.social-icons ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/*Language list*/
+
+.container .language-list ul {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container .language-list li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.container .language-list li a {
+    color:rgba(250, 249, 249, 0.5);
+}
+
+/*Bottom footer*/
 
