@@ -1,6 +1,4 @@
-
 /*GENERALS*/
-
 * {
     margin: 0;
     padding: 0;
@@ -10,10 +8,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
+    color: #33475b;
 }
 
 /*UTILITIES*/
-
 .container{
     width: 900px;
     margin: 0 auto;
@@ -60,6 +58,10 @@ p {
     color: #33475b;
 }
 
+li {
+    list-style: none;
+}
+
 .button {
     display: inline-block;
     min-width: 50px;
@@ -76,7 +78,6 @@ p {
 /*HEADER*/
 
 /*up header*/
-
 .view-port1 {
     background: rgb(228, 248, 248);
 }
@@ -114,7 +115,6 @@ p {
 }
 
 /*up-header2 right*/
-
 .up-header2 .button.login {
     margin: 0 15px;
     color: #ff7a59;
@@ -126,7 +126,6 @@ p {
 }
 
 /*DOWN-HEADER*/
-
 .view-port2 .container {
     padding: 15px 0;
 }
@@ -146,7 +145,6 @@ p {
 }
 
 /*down-header content*/
-
 .down-header1 img {
     height: 24px;
     vertical-align: middle;
@@ -154,7 +152,6 @@ p {
 
 .down-header2 ul li {
     display: inline-block;
-    list-style: none;
 }
 
 .down-header2 ul li a {
@@ -165,7 +162,6 @@ p {
 /*MAIN CONTENT*/
 
 /*Section hero*/
-
 .hero {
     position: relative;
     height: 650px;
@@ -180,12 +176,10 @@ p {
 .container .w50 h1 {
     margin-bottom: 20px;
     font-size: 30px;
-    color: #33475b;
 }
 
 .container .w50 p {
     margin-bottom: 20px;
-    color: #33475b;
     font-size: 16px;
     font-weight: 500;
 }
@@ -226,13 +220,11 @@ p {
 .smaller-container h2 {
     margin-bottom: 20px;
     font-size: 22px;
-    color: #33475b;
 }
 
 .smaller-container p {
     margin-bottom: 30px;
     line-height: 20px;
-    color: #33475b;
 }
 
 /*second div section header of coluns*/
@@ -269,7 +261,6 @@ p {
 }
 
 /*right side*/
-
 .container .CRM-right {
     width: 70%;
     padding-left: 30px;
@@ -279,7 +270,6 @@ p {
 .container .CRM-right h3 {
     margin-bottom: 30px;
     font-size: 18px;
-    color: #33475b;
 }
 
 .container .CRM-right p {
@@ -287,7 +277,6 @@ p {
 }
 
 /*MINI-CONTAINER*/
-
 .mini-container {
     position: relative;
     width: 100%;
@@ -305,11 +294,9 @@ p {
 }
 
 /*UL*/
-
 .view-port3 .container ul li {
     display: inline-block;
     margin-right: 10px;
-    list-style: none;
 }
 
 .colored4 {
@@ -320,7 +307,6 @@ p {
 /*CONTAINER WITH 3 COLUNS*/
 
 /*coluns*/
-
 .coluns {
     width: 900px;
     margin: 30px auto;
@@ -354,7 +340,6 @@ p {
 .coluns .row h3 {
     margin-bottom: 20px;
     font-size: 18px;
-    color: #33475b;
 }
 
 .coluns .row p{
@@ -366,17 +351,11 @@ p {
     margin-top: 30px;
     margin-bottom: 20px;
     text-transform: uppercase;
-    color: #33475b;
 }
 
 .coluns .row ul {
     margin-bottom: 30px;
     text-align:left;
-}
-
-.coluns .row ul li {
-    list-style: none;
-    color: #33475b;
 }
 
 .coluns .row .button {
@@ -397,7 +376,6 @@ p {
 }
 
 /*Text condition*/
-
 .view-port4 .container h2 {
     font-size: 23px;
 }
@@ -408,7 +386,6 @@ p {
 }
 
 /*Logo box condition*/
-
 .container-row {
     width: 100%;
     height: 200px;
@@ -441,7 +418,6 @@ p {
 }
 
 /*VIEW-PORT 5*/
-
 .view-port5 {
     width: 100%;
 }
@@ -466,7 +442,6 @@ p {
 }
 
 /*Text condition*/
-
 #mini {    
     margin-left: 80px;
     padding-top: 40px;
@@ -476,7 +451,6 @@ p {
 
 #h2-special {
     font-size: 35px;
-    color: #33475b;
 }
 
 .startgrow #mini p {
@@ -493,13 +467,11 @@ p {
     margin-top: 20px;
     margin-bottom: 30px;
     font-size: 24px;
-    color: #33475b;
 }
 
 .startgrow2 h5 {
     margin-bottom: 50px;
     font-weight: 500;
-    color: #33475b;
 }
 
 .startgrow2 p {
@@ -512,7 +484,6 @@ p {
 }
 
 /*Logo Frenzy*/
-
 .logo-frenzy .logo-fix{
     height: 20px;
 }
@@ -549,7 +520,6 @@ p {
 }
 
 /*BIG FOOTER*/
-
 .view-port6 {
     width: 100%;
     background: #425b76;
@@ -563,7 +533,6 @@ p {
 
 .container .ul-row li {
     line-height: 3;
-    list-style: none;
     color: #fff;
 }
 
@@ -585,14 +554,12 @@ p {
 }
 
 /*Language list*/
-
 .container .language-list ul {
     margin-bottom: 20px;
     text-align: center;
 }
 
 .container .language-list li {
-    list-style: none;
     display: inline-block;
     padding-right: 10px;
 }
