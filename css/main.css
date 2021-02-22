@@ -239,11 +239,6 @@ li {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
 }
 
-.container .CRM-left,
-.CRM-right {
-    display: inline-block;
-}
-
 /*left side*/
 .container .CRM-left {
     width: 20%;
@@ -273,7 +268,11 @@ li {
 }
 
 .container .CRM-right p {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.container .CRM-right ul {
+    padding-top: 20px;
 }
 
 /*MINI-CONTAINER*/
