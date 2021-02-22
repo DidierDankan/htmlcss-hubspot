@@ -423,18 +423,13 @@ p {
     border-right: 1px solid #fff;
 }
 
-.logo-box:nth-child(4) {
-    border-right: none;
-}
-
-.logo-box:last-child {
+.logo-box:nth-of-type(4n+4) {
     border-right: none;
 }
 
 .logo-box:nth-child(4) ~ .logo-box {
     border-top: 1px solid #fff;
 }
-
 
 /*text condition*/
 .logo-box img {
