@@ -75,6 +75,20 @@ li {
     border-radius: 5px;
 }
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 70px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #33475b;
+}
+
 /*HEADER*/
 
 /*up header*/
@@ -92,6 +106,7 @@ li {
     line-height: 3;
 }
 .container .up-header1 {
+    position: relative;
     width: 50%;
 }
 
@@ -112,6 +127,10 @@ li {
 
 .up-header1 .menu-link:last-child {
     padding-left: 10px;
+}
+
+.container .up-header1 .colored2:hover .dropdown-content {
+    display: block;
 }
 
 /*up-header2 right*/
@@ -167,6 +186,7 @@ li {
     height: 650px;
     background-image: url(../img-hubspot/jumbotron.png);  
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .container .w50 {
@@ -184,8 +204,8 @@ li {
     font-weight: 500;
 }
 
-.container .w50 p:last-child {
-    font-size: 10px ;
+.container .w50 h5 {
+    font-weight: 500;
 }
 
 .container .w50 .button {
@@ -511,6 +531,7 @@ li {
     height: 24px;
 }
 
+/*imagine woman*/
 #img-special img {
     position: absolute;
     right: 0;
@@ -567,7 +588,7 @@ li {
     color:rgba(250, 249, 249, 0.5);
 }
 
-/*Bottom footer*/
+/*bottom footer*/
 footer .container {
     position: relative;
 }
