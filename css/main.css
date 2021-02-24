@@ -87,7 +87,7 @@ li {
 }
 
 .dropdown-content {
-    /* display: none; */
+    display: none;
     position: absolute;
     width: 70px;
     background: #fff;
