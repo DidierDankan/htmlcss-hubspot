@@ -196,6 +196,7 @@ li {
     display: block;
 }
 
+/* dropdown Software */
 .down-header2 li .dropdown-content {
     position: absolute;
     right: -299px;
@@ -281,7 +282,6 @@ li {
     top: 5px;
 }
 
-/* test section end */
 .down-header2 li .dropdown-content .w70 .w70-mini-container .w70-box-content h3 {
     margin-bottom: 10px;
 }
